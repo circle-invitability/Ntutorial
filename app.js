@@ -1,16 +1,14 @@
-//Modules
-// commonJS, every file is module (by default)
-// Modules - Encapsulated Code (only share minimum)
-const john = 'john';
-const peter = 'peter';
+const http = require('http');
+//the http module allow us to setup a web server
+try {
+    const server = http.createServer((req, res) => {
+        res.write("welcome to my homepage");
+    });
+    
+    server.listen(8010);
+    
+} catch (error) {
+    console.log(error)
+    
+};
 
-const sayHi = (name) => {
-    console.log(`hello there ${name} how was the weekend`);
-}
-
-sayHi('susan');
-sayHi(john);
-sayHi(peter);
-
-
-//what if we can get the names from another file, which will be our module. that is the basis concept of modules in node.js

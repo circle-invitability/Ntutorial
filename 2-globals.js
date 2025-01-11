@@ -17,6 +17,6 @@ console.log(process);
 console.log(setInterval);
 console.log(setTimeout);
 
-setInterval(() => {
-console.log('hello world')
-},1000)// to run the app you dont to type node app with the.js file name, you can just type node app and it will run the app.js file
+//setInterval(() => {
+//console.log('hello world')
+//},1000);// to run the app you dont to type node app with the.js file name, you can just type node app and it will run the app.js file
