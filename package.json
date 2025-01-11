@@ -1,16 +1,15 @@
 {
   "dependencies": {
+    "bootstrap": "^5.3.3",
+    "lodash": "^4.17.21",
     "prompt-sync": "^4.2.0"
   },
   "name": "ntutorial",
   "version": "1.0.0",
   "description": "nodejs tutorials  youtube link <https://www.youtube.com/watch?v=Oe421EPjeBE&t=2003s>",
   "main": "1-intro.js",
-  "devDependencies": {},
   "scripts": {
     "test": "node ./app.js"
-    
-    
   },
   "keywords": [],
   "author": "",
